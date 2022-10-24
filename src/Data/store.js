@@ -3,6 +3,6 @@ import cartReducer from "./Reducers/cartReducer";
 
 export const store = configureStore({
   reducer: {
-    cartReducer,
+    cartReducer: cartReducer,
   },
 });
